@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matriks 2x2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Matriks 2x2</h1>
+
+        <div class="matriks">
+            <h3>Masukkan Matriks A</h3>
+            <input type="number" id="a11" placeholder="a11">
+            <input type="number" id="a12" placeholder="a12">
+            <input type="number" id="a21" placeholder="a21">
+            <input type="number" id="a22" placeholder="a22">
+        </div>
+
+        <div class="matriks">
+            <h3>Masukkan Matriks B</h3>
+            <input type="number" id="b11" placeholder="b11">
+            <input type="number" id="b12" placeholder="b12">
+            <input type="number" id="b21" placeholder="b21">
+            <input type="number" id="b22" placeholder="b22">
+        </div>
+
+        <div class="buttons">
+            <button onclick="tambahMatriks()">Tambah</button>
+            <button onclick="kurangMatriks()">Kurang</button>
+            <button onclick="kaliMatriks()">Kali</button>
+            <button onclick="bagiMatriks()">Bagi</button>
+        </div>
+
+        <div class="result">
+            <h3>Hasil</h3>
+            <p id="resultText"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
